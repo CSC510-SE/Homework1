@@ -3,10 +3,11 @@ def calculate_average(numbers):
 
 if __name__ == "__main__":
     # Taking input from the user
-    user_input = input("Enter numbers separated by spaces: ")
+   # user_input = input("Enter numbers separated by spaces: ")
     
     # Splitting the input string into a list of integers
-    numbers = [int(x) for x in user_input.split()]
+    #numbers = [int(x) for x in user_input.split()]
+    numbers=[1,2,3,4]
     # Calculate the average
     average = calculate_average(numbers)
     print(f"The average is: {average}")
